@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Project Arca Tools builds practical Unity gameplay and simulation tools from production-driven experiments.">
+  <title>Project Arca Tools</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Project Arca Tools home">
+      <span class="brand-mark" aria-hidden="true">
+        <span class="block block-a"></span>
+        <span class="block block-b"></span>
+        <span class="block block-c"></span>
+      </span>
+      <span>Project Arca Tools</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#toolkit">Toolkit</a>
+      <a href="#docs">Documentation</a>
+      <a href="#development">Development</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <p class="eyebrow">Unity gameplay & simulation tools</p>
+      <h1>Practical tools built from real production experiments.</h1>
+      <p class="hero-copy">
+        Project Arca Tools develops reusable Unity tooling with a focus on repeatable workflows,
+        transparent limitations, and practical integration.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#toolkit">View the Toolkit</a>
+        <a class="button secondary" href="#development">Development notes</a>
+      </div>
+    </section>
+
+    <section id="toolkit" class="product shell">
+      <div class="section-heading">
+        <p class="eyebrow">In development · validated package baseline v0.3.0</p>
+        <h2>Progressive Destruction Toolkit</h2>
+        <p class="tagline">Progressive, structural, recoverable destruction for gameplay.</p>
+      </div>
+
+      <div class="product-visual" aria-label="Stylized structural destruction diagram">
+        <div class="wall">
+          <span class="brick b1"></span><span class="brick b2"></span><span class="brick b3"></span>
+          <span class="brick b4"></span><span class="brick b5"></span><span class="brick b6"></span>
+          <span class="brick b7"></span><span class="brick b8"></span><span class="brick b9"></span>
+          <span class="brick debris d1"></span><span class="brick debris d2"></span>
+        </div>
+      </div>
+
+      <p class="lead">
+        Progressive Destruction Toolkit is a gameplay-oriented destruction system for Unity built for
+        destruction that continues after the first break. The current validated package supports
+        editor-authored fracture data, progressive damage routing, connectivity-driven structural
+        secondary collapse, re-hittable fallen components, and Safe Recovery.
+      </p>
+
+      <div class="feature-grid">
+        <article>
+          <h3>Progressive Damage</h3>
+          <p>Repeated attacks can accumulate damage against stable authored Fragment identities instead of forcing an all-at-once shatter.</p>
+        </article>
+        <article>
+          <h3>Structural Secondary Collapse</h3>
+          <p>Support and connectivity determine which connected regions remain standing and which become coherent dynamic bodies.</p>
+        </article>
+        <article>
+          <h3>Re-hittable Fallen Components</h3>
+          <p>Fallen multi-Fragment components remain in the destruction lifecycle and can repartition as additional existing authored Fragments detach.</p>
+        </article>
+        <article>
+          <h3>Safe Recovery</h3>
+          <p>Restore the destruction baseline and run another destruction cycle without consumer-side manual Fragment reconstruction.</p>
+        </article>
+      </div>
+
+      <aside class="notice">
+        <strong>Pre-release status.</strong>
+        Physical secondary-impact destruction and visual damage diagnostics are targeted for v1.0,
+        but are not advertised here as shipping features until release validation is complete.
+      </aside>
+    </section>
+
+    <section id="docs" class="split shell">
+      <div>
+        <p class="eyebrow">Documentation</p>
+        <h2>A defined integration path.</h2>
+      </div>
+      <div>
+        <p>
+          Public customer documentation will be published with the release candidate and will cover
+          Quick Start, authoring, integration, troubleshooting, Recovery, physical-impact behavior,
+          diagnostics, known limitations, and version notes.
+        </p>
+        <p class="muted">Private development repositories and internal planning documents are not part of the customer documentation surface.</p>
+      </div>
+    </section>
+
+    <section id="development" class="split shell">
+      <div>
+        <p class="eyebrow">Development</p>
+        <h2>Production-driven, evidence-led tooling.</h2>
+      </div>
+      <div>
+        <p>
+          Project Arca Tools develops reusable Unity and simulation tooling through real consumer projects
+          before release. The emphasis is on repeatable workflows, observable behavior, bounded scope, and
+          honest limitations.
+        </p>
+        <div class="link-row">
+          <a href="https://zenn.dev/project_arca" rel="noreferrer">Project Arca on Zenn ↗</a>
+          <a href="https://github.com/project-arca" rel="noreferrer">GitHub profile ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="support" class="support shell">
+      <p class="eyebrow">Support</p>
+      <h2>Support channel opening with v1.0.</h2>
+      <p>
+        Product documentation and a dedicated support contact will be published before Asset Store submission.
+        Until then, this site reflects the current pre-release product state.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <span>© 2026 Project Arca Tools</span>
+    <span>Progressive Destruction Toolkit · Pre-release</span>
+  </footer>
+</body>
+</html>
