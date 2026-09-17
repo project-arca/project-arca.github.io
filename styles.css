@@ -90,8 +90,10 @@ h3 { margin: 0 0 12px; font-size: 1.25rem; }
 @media (max-width: 720px) {
   .site-header { align-items: flex-start; padding: 18px 0; flex-direction: column; }
   nav { gap: 13px 18px; font-size: .9rem; }
-  .hero { padding: 72px 0 68px; }
-  h1 { font-size: clamp(2.7rem, 13vw, 4.5rem); }
+  .hero { padding: 50px 0 56px; }
+  h1 { font-size: clamp(2.45rem, 11vw, 3.8rem); }
+  .hero-copy { margin-top: 22px; }
+  .hero-actions { margin-top: 26px; }
   .product, .split, .support { padding: 68px 0; }
   .feature-grid, .split { grid-template-columns: 1fr; }
   .split { gap: 28px; }
