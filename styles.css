@@ -42,7 +42,7 @@ nav a:hover, .link-row a:hover { color: var(--text); }
 .hero { padding: 110px 0 94px; }
 .eyebrow { margin: 0 0 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .14em; font-size: .75rem; font-weight: 700; }
 h1, h2, h3 { line-height: 1.08; letter-spacing: -.035em; }
-h1 { max-width: 850px; margin: 0; font-size: clamp(3rem, 8vw, 6.7rem); font-weight: 780; }
+h1 { max-width: 920px; margin: 0; font-size: clamp(3rem, 7vw, 6rem); font-weight: 780; }
 h2 { margin: 0; font-size: clamp(2.2rem, 5vw, 4.2rem); }
 h3 { margin: 0 0 12px; font-size: 1.25rem; }
 .hero-copy, .lead { max-width: 760px; color: var(--muted); font-size: clamp(1.05rem, 2.2vw, 1.35rem); }
@@ -91,7 +91,7 @@ h3 { margin: 0 0 12px; font-size: 1.25rem; }
   .site-header { align-items: flex-start; padding: 18px 0; flex-direction: column; }
   nav { gap: 13px 18px; font-size: .9rem; }
   .hero { padding: 50px 0 56px; }
-  h1 { font-size: clamp(2.45rem, 11vw, 3.8rem); }
+  h1 { font-size: clamp(2.35rem, 10.5vw, 3.55rem); }
   .hero-copy { margin-top: 22px; }
   .hero-actions { margin-top: 26px; }
   .product, .split, .support { padding: 68px 0; }
