@@ -1,6 +1,6 @@
-# Project Arca Tools website
+# PapaGrid Lab website
 
-Public publisher/product site for **Project Arca Tools**.
+Public publisher/product site for **PapaGrid Lab**.
 
 Current primary product:
 
