@@ -40,7 +40,7 @@
 
     <section id="toolkit" class="product shell">
       <div class="section-heading">
-        <p class="eyebrow">In development · validated package baseline v0.3.0</p>
+        <p class="eyebrow">Pre-release · v1 runtime feature set frozen</p>
         <h2>Progressive Destruction Toolkit</h2>
         <p class="tagline">Progressive, structural, recoverable destruction for gameplay.</p>
       </div>
@@ -56,9 +56,10 @@
 
       <p class="lead">
         Progressive Destruction Toolkit is a gameplay-oriented destruction system for Unity built for
-        destruction that continues after the first break. The current validated package supports
-        editor-authored fracture data, progressive damage routing, connectivity-driven structural
-        secondary collapse, re-hittable fallen components, and Safe Recovery.
+        destruction that continues after the first break. The frozen v1 runtime feature line includes
+        editor-authored destruction data, progressive local damage, bounded ContactMap transmission,
+        connectivity-driven partial collapse, re-hittable fallen components, optional physical secondary
+        destruction, Safe Recovery, and visual damage diagnostics.
       </p>
 
       <div class="feature-grid">
@@ -75,16 +76,43 @@
           <p>Fallen multi-Fragment components remain in the destruction lifecycle and can repartition as additional existing authored Fragments detach.</p>
         </article>
         <article>
+          <h3>Physical Secondary Destruction</h3>
+          <p>Configured released Toolkit bodies can create a new destruction attack when they later make a qualifying real physical collision.</p>
+        </article>
+        <article>
           <h3>Safe Recovery</h3>
           <p>Restore the destruction baseline and run another destruction cycle without consumer-side manual Fragment reconstruction.</p>
+        </article>
+        <article>
+          <h3>Visual Damage Diagnostics</h3>
+          <p>Inspect received, applied and accumulated damage plus transmission-hop context while tuning destruction behavior.</p>
         </article>
       </div>
 
       <aside class="notice">
         <strong>Pre-release status.</strong>
-        Physical secondary-impact destruction and visual damage diagnostics are targeted for v1.0,
-        but are not advertised here as shipping features until release validation is complete.
+        The v1 runtime feature set is frozen, but the product is still in commercial hardening.
+        Showcase completion, paid release-artifact validation, final supported-version/platform evidence,
+        licensing/provenance review, and Asset Store submission are still pending.
       </aside>
+    </section>
+
+    <section class="split shell" aria-labelledby="limits-title">
+      <div>
+        <p class="eyebrow">Important limitations</p>
+        <h2 id="limits-title">Gameplay-oriented by design.</h2>
+      </div>
+      <div>
+        <p>
+          Structural collapse is connectivity/support based, not FEM or structural engineering analysis.
+          v1 does not include a generic Ground Destruction domain or recursive runtime subdivision of one
+          authored Fragment into newly generated finer Fragments.
+        </p>
+        <p class="muted">
+          Source-mesh authoring constraints apply. Final supported Unity versions, render-pipeline details,
+          platforms, and measured performance guidance will be published from the validated release artifact.
+        </p>
+      </div>
     </section>
 
     <section id="docs" class="split shell">
@@ -95,8 +123,9 @@
       <div>
         <p>
           Public customer documentation will be published with the release candidate and will cover
-          Quick Start, authoring, integration, troubleshooting, Recovery, physical-impact behavior,
-          diagnostics, known limitations, and version notes.
+          Quick Start, damage transmission, structural support and partial collapse, physical secondary
+          destruction, released-body settling, Recovery and lifecycle, diagnostics, troubleshooting,
+          known limitations, supported versions/platforms, performance guidance, and version notes.
         </p>
         <p class="muted">Private development repositories and internal planning documents are not part of the customer documentation surface.</p>
       </div>
