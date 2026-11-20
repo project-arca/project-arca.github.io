@@ -27,7 +27,7 @@
 
   <main id="top">
     <section class="hero shell">
-      <p class="eyebrow">Pre-release · Unity destruction toolkit</p>
+      <p class="eyebrow">Pre-release · Mac RC1 reviewed</p>
       <h1>Destruction that continues after the first break.</h1>
       <p class="hero-copy">
         Progressive Destruction Toolkit brings progressive damage, connectivity-driven structural collapse,
@@ -40,7 +40,7 @@
 
     <section id="toolkit" class="product shell">
       <div class="section-heading">
-        <p class="eyebrow">Pre-release · v1 runtime feature set frozen</p>
+        <p class="eyebrow">Pre-release · v1.0.0 Mac-validated candidate</p>
         <h2>Progressive Destruction Toolkit</h2>
         <p class="tagline">Progressive, structural, recoverable destruction for gameplay.</p>
       </div>
@@ -90,10 +90,10 @@
       </div>
 
       <aside class="notice">
-        <strong>Pre-release status.</strong>
-        The v1 runtime feature set is frozen, but the product is still in commercial hardening.
-        Showcase completion, paid release-artifact validation, final supported-version/platform evidence,
-        licensing/provenance review, and Asset Store submission are still pending.
+        <strong>Pre-release; not available for purchase yet.</strong>
+        The v1.0.0 RC1 package passed fresh Mac Editor and ARM64 Mono Development Standalone testing.
+        The URP Showcase guided interaction and visual review passed human inspection on November 20, 2026.
+        Final customer-document reconciliation, marketing media, Publisher Portal checks and Unity Asset Store approval remain outstanding.
       </aside>
     </section>
 
@@ -109,8 +109,21 @@
           authored Fragment into newly generated finer Fragments.
         </p>
         <p class="muted">
-          Source-mesh authoring constraints apply. Final supported Unity versions, render-pipeline details,
-          platforms, and measured performance guidance will be published from the validated release artifact.
+          Source-mesh authoring is currently limited to readable, closed, connected, consistently wound,
+          two-manifold, convex meshes with positive uniform scale; the configured authored Fragment count
+          is 2–128. Physical secondary destruction requires explicit setup. The Toolkit does not guarantee
+          a universal frame rate.
+        </p>
+        <p>
+          <strong>Release-validated configuration:</strong> Unity 6000.4.7f1 on macOS Apple Silicon.
+          The Core Toolkit and Minimal Consumer reference sample were validated with the Built-in Render Pipeline;
+          the interactive Showcase Arena uses URP 17.4.0. Actual Mac Standalone tests used ARM64,
+          Mono and Development builds.
+        </p>
+        <p class="muted">
+          Windows x64, Linux, mobile, Web, consoles, other Unity versions, Intel Mac and IL2CPP Player builds
+          have not been release-validated. This is a verification/support-scope limit,
+          not a claim that those configurations are incompatible.
         </p>
       </div>
     </section>
@@ -122,12 +135,24 @@
       </div>
       <div>
         <p>
-          Public customer documentation will be published with the release candidate and will cover
-          Quick Start, damage transmission, structural support and partial collapse, physical secondary
-          destruction, released-body settling, Recovery and lifecycle, diagnostics, troubleshooting,
-          known limitations, supported versions/platforms, performance guidance, and version notes.
+          The version-matched package documentation covers Quick Start, destruction authoring, physical hit routing,
+          damage transmission, structural support, physical secondary destruction, Recovery, diagnostics,
+          troubleshooting, known limitations and measured Editor reference guidance.
         </p>
-        <p class="muted">Private development repositories and internal planning documents are not part of the customer documentation surface.</p>
+        <h3>Public quick-start overview</h3>
+        <ol>
+          <li>Import the commercial <code>.unitypackage</code> into a fresh project with the verified Unity version.</li>
+          <li>Open <strong>Tools &gt; Progressive Destruction &gt; Destruction Authoring</strong> and create the <code>DestructionQuery</code> layer if prompted.</li>
+          <li>Open <strong>Samples / Minimal Consumer / MinimalConsumer</strong> for fixed-target physical hit and Safe Recovery integration.</li>
+          <li>In a project configured for URP 17.4.0, open <strong>Samples / Showcase Arena / ShowcaseArena</strong> for guided interactive collapse, fallen re-hit, secondary contact and Recovery.</li>
+        </ol>
+        <p class="muted">
+          The Minimal Consumer panel does not provide a general fallen-component targeting button; this interaction
+          is available through the public API and directly demonstrated in the URP Showcase.
+          Full technical instructions are included locally with the package. See
+          <a href="#limits-title">Important limitations</a> above.
+          Private development repositories are not customer documentation.
+        </p>
       </div>
     </section>
 
@@ -151,10 +176,13 @@
 
     <section id="support" class="support shell">
       <p class="eyebrow">Support</p>
-      <h2>Support channel opening with v1.0.</h2>
+      <h2>Product support and contact.</h2>
       <p>
-        Product documentation will be published before Asset Store submission. Customer support is available at projectarcatools.support@gmail.com.
-        Until then, this site reflects the current pre-release product state.
+        For questions about Progressive Destruction Toolkit, contact
+        <a href="mailto:projectarcatools.support@gmail.com">projectarcatools.support@gmail.com</a>.
+        For reproducible issues, include the Toolkit version, Unity version, operating system,
+        steps to reproduce and relevant Unity Console output.
+        The product has not yet been submitted or approved for public sale.
       </p>
     </section>
   </main>
